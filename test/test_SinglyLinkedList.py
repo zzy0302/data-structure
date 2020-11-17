@@ -24,6 +24,7 @@ class SinglyLinkedListTest(unittest.TestCase):
             temp = SinglyLinkedList(item)
             assert len(temp) == 0
             assert temp.is_empty() is True
+
     @unittest.expectedFailure
     def test_head(self):
         temp = SinglyLinkedList([1, 2, 3, 4, 5])
